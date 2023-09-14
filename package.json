@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "log4brains": "log4brains",
+    "preview": "log4brains preview",
+    "new": "log4brains new adr"
+  },
+  "dependencies": {
+    "log4brains": "^1.0.1"
+  }
+}
