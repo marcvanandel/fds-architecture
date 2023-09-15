@@ -1,23 +1,23 @@
-# Architecture Decision Records
+# FDS Architectuur Design Desicions
 
 ADRs are automatically published to our Log4brains architecture knowledge base:
 
-🔗 **<http://INSERT-YOUR-LOG4BRAINS-URL>**
+🔗 **https://marcvanandel.github.io/fds-architecture/**
 
 Please use this link to browse them.
 
 ## Development
 
-If not already done, install Log4brains:
+Install dependencies:
 
 ```bash
-npm install -g log4brains
+yarn install
 ```
 
 To preview the knowledge base locally, run:
 
 ```bash
-log4brains preview
+yarn preview
 ```
 
 In preview mode, the Hot Reload feature is enabled: any change you make to a markdown file is applied live in the UI.
@@ -25,7 +25,7 @@ In preview mode, the Hot Reload feature is enabled: any change you make to a mar
 To create a new ADR interactively, run:
 
 ```bash
-log4brains adr new
+yarn log4brains adr new
 ```
 
 ## More information

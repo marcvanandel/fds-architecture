@@ -1,11 +1,9 @@
-# [kort titel van het opgeloste probleem en oplossing]
+# Toepassen van OPENDEI Capability Model
 
-- Status: [draft | proposed | rejected | accepted | deprecated | … | superseded by [xxx](yyyymmdd-xxx.md)] <!-- optional -->
-- Deciders: [benoem iedereen die betrokken is bij deze beslissing] <!-- optional -->
-- Date: [YYYY-MM-DD van wanneer deze beslissing het laatst is bijgewerkt] <!-- optional. To customize the ordering without relying on Git creation dates and filenames -->
-- Tags: [comma separated lijst van tags] <!-- optional -->
-
-Issue: [description | ticket/issue URL] <!-- optional -->
+- Status: accepted
+- Deciders: FDS Programma
+- Date: 2023-06-01
+- Tags: FDS Programmabeslissing
 
 ## Context en probleemstelling
 

@@ -1,36 +1,48 @@
 <!-- This file is the homepage of your Log4brains knowledge base. You are free to edit it as you want -->
 
-# Architecture knowledge base
+# Architectuur knowledge base
 
-Welcome 👋 to the architecture knowledge base of FDS Architecture.
-You will find here all the Architecture Decision Records (ADR) of the project.
+Welkom 👋 bij de architectuur knowledge base van FDS Architectuur.
+Hier zijn alle principes en 'design decisions' terug te vinden van het project.
+Deze design decisions worden vastgelegd in een 'Architecture Desicion Record' formaat.
 
-## Definition and purpose
+## Definitie en doel
 
-> An Architectural Decision (AD) is a software design choice that addresses a functional or non-functional requirement that is architecturally significant.
-> An Architectural Decision Record (ADR) captures a single AD, such as often done when writing personal notes or meeting minutes; the collection of ADRs created and maintained in a project constitutes its decision log.
+Tijdens het ontstaan en gebruik van het Federatief DataStelsel, FDS, zijn en worden keuzes gemaakt.
+Aangezien een federatief datastelsel uitsluitend kan bestaan door de federatie van deelnemers,
+is het van groot belang om goed te documenteren en te kunnen nalezen welke beslissingen er genomen zijn.
 
-An ADR is immutable: only its status can change (i.e., become deprecated or superseded). That way, you can become familiar with the whole project history just by reading its decision log in chronological order.
-Moreover, maintaining this documentation aims at:
+'Architecture Desicions' (AD), ook wel 'design desicions', zijn beslissingen die functionele of non-functional requirements adresseren die signifikant zijn voor de architectuur.
+Architectuur is hierin een breed begrip, want elke beslissing die gaat over structuur, hergebruik of toepassing wordt hieronder gevat.
+Een 'Architecture Desicion Record' (ADR) bevat een enkele AD / design desicion zoals vaak gebeurt in persoonlijke of overleg verslagen.
+De verzameling van ADRs die worden vastgelegd en onderhouden vormen de basis waarop het project gebouwd is.
 
-- 🚀 Improving and speeding up the onboarding of a new team member
-- 🔭 Avoiding blind acceptance/reversal of a past decision (cf [Michael Nygard's famous article on ADRs](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions.html))
-- 🤝 Formalizing the decision process of the team
+Een ADR is 'immutable', onveranderlijk. De status kan wel veranderen, maar de strekking van de design desicion, het besluit, wijzigt niet.
+Op die manier kan er op voort gebouwd worden en is de basis van een project terug te lezen in de geschiedenis van design desicions in chronologische volgorde.
+Bovendien heeft het onderhouden van documentatie tot doel dat:
 
-## Usage
+- 🚀 Nieuw betrokken mensen snel en goed aan boord kunnen komen en zich kunnen inlezen
+- 🔭 Blinde accentatie of herhalen van discussies van beslissingen uit het verleden gaan plaatsvinden (zie ook [Michael Nygard's beroemde artikel over ADRs](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions.html))
+- 🤝 Besluitvorming geformaliseerd en traceerbaar wordt voor het team én betrokkenen.
 
-This website is automatically updated after a change on the `master` branch of the project's Git repository.
-In fact, the developers manage this documentation directly with markdown files located next to their code, so it is more convenient for them to keep it up-to-date.
-You can browse the ADRs by using the left menu or the search bar.
+## Gebruik
 
-The typical workflow of an ADR is the following:
+Deze website wordt automatisch bijgewerkt nadat er een verandering in de `main` branch van dit Git repository van dit project.
+Elke ADR is een Markdown bestand in de Git repo(sitory).
+Dat betekent maximale ondersteuning in versiebeheer en de mogelijkheid voor iedereen (met een account) om bij te dragen en suggesties te doen.
+Nadat wijzigingen zijn gereviewd en geaccepteerd, zal de website worden bijgewerkt.
+
+In deze website kunnen alle ADRs / design desicions bekeken, doorgebladerd en opgezocht worden.
+
+Voor wat betreft de status is dit een typische 'flow':
 
 ![ADR workflow](/l4b-static/adr-workflow.png)
 
-The decision process is entirely collaborative and backed by pull requests.
+De besluitvorming is helemaal een samenwerking en wordt ondersteund door pull requests.
 
-## More information
+## Meer informatie
 
+- [Saxion Hogeschool over ADRs](https://video.saxion.nl/media/Architecture+Decision+Records+%28ADR%29+-+Advanced/1_k2u6kljl/278581542)
 - [Log4brains documentation](https://github.com/thomvaill/log4brains/tree/master#readme)
 - [What is an ADR and why should you use them](https://github.com/thomvaill/log4brains/tree/master#-what-is-an-adr-and-why-should-you-use-them)
 - [ADR GitHub organization](https://adr.github.io/)

@@ -1,5 +1,14 @@
 project:
   name: FDS Architecture
-  tz: Europe/Berlin
+  tz: Europe/Amsterdam
   adrFolder: ./docs/adr
-  packages: []
+  packages:
+  - name: principles
+    path: ./packages/principles
+    adrFolder: ./packages/principles/adr
+  - name: capabilities
+    path: ./packages/capabilities
+    adrFolder: ./packages/capabilities/adr
+  - name: architecture
+    path: ./packages/architecture
+    adrFolder: ./packages/architecture/adr
