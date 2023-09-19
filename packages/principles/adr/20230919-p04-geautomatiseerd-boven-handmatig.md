@@ -1,15 +1,13 @@
-# [kort titel van het opgeloste probleem en oplossing]
+# Principe P04: Geautomatiseerd boven handmatig
 
-- Status: [draft | proposed | rejected | accepted | deprecated | … | superseded by [xxx](yyyymmdd-xxx.md)] <!-- optional -->
-- Deciders: [benoem iedereen die betrokken is bij deze beslissing] <!-- optional -->
+- Status: draft
+- Deciders: FDS programma
 - Date: [YYYY-MM-DD van wanneer deze beslissing het laatst is bijgewerkt] <!-- optional. To customize the ordering without relying on Git creation dates and filenames -->
-- Tags: [comma separated lijst van tags] <!-- optional -->
-
-Issue: [description | ticket/issue URL] <!-- optional -->
+- Tags: Strategisch_Principe, Architectuur_Principe
 
 ## Context en probleemstelling
 
-[Beschrijf de context en de probleemstelling, bijvoorbeeld in vrije tekst in twee of drie zinnen. Wellicht wil het probleem in de vorm van een vraag positioneren.]
+Het stelsel is gericht op digitaal werken en digitale interactie. Daarmee wordt gedoeld op vergaande automatisering. In principe is alles geautomatiseerd. Dat wil zeggen dat zaken vooral digitaal en machine-leesbaar zijn. Daarnaast zou het ook voor mensen te lezen en te begrijpen moeten zijn … of een afgeleide van het machine-leesbare deel.
 
 ## Beslissingsfactoren <!-- optional -->
 
@@ -69,5 +67,6 @@ Gekozen oplossing: "[optie 1]", omdat [rechtvaardiging. bijvoorbeeld enige optie
 
 ## Links <!-- optional -->
 
+- Gerelateerd aan [Principe P06: Zelfbediening](./20230919-p06-zelfbediening.md)
 - [Link naam](link to adr) <!-- example: Refined by [xxx](yyyymmdd-xxx.md) -->
 - … <!-- numbers of links can vary -->

@@ -1,15 +1,18 @@
-# [kort titel van het opgeloste probleem en oplossing]
+# Principe P06: Zelfbediening
 
-- Status: [draft | proposed | rejected | accepted | deprecated | … | superseded by [xxx](yyyymmdd-xxx.md)] <!-- optional -->
-- Deciders: [benoem iedereen die betrokken is bij deze beslissing] <!-- optional -->
+- Status: draft
+- Deciders: FDS programma
 - Date: [YYYY-MM-DD van wanneer deze beslissing het laatst is bijgewerkt] <!-- optional. To customize the ordering without relying on Git creation dates and filenames -->
-- Tags: [comma separated lijst van tags] <!-- optional -->
+- Tags: Strategisch_Principe, Architectuur_Principe
 
 Issue: [description | ticket/issue URL] <!-- optional -->
 
 ## Context en probleemstelling
 
-[Beschrijf de context en de probleemstelling, bijvoorbeeld in vrije tekst in twee of drie zinnen. Wellicht wil het probleem in de vorm van een vraag positioneren.]
+Om in een vergaande geautomatiseerde omgeving (zie [P04: Geautomatiseerd boven handmatig](./20230919-p04-geautomatiseerd-boven-handmatig.md)) autonoom aan de slag te kunnen gaan,
+is het nodig dat deelnemers (van elke vorm) zélf aan de slag moeten kunnen gaan.
+Het principe daarvoor is dat er zelfbedieningsmechanismen beschikbaar gemaakt moeten zijn.
+Zelfbediening en self-service zijn synoniemen.
 
 ## Beslissingsfactoren <!-- optional -->
 
@@ -69,5 +72,6 @@ Gekozen oplossing: "[optie 1]", omdat [rechtvaardiging. bijvoorbeeld enige optie
 
 ## Links <!-- optional -->
 
+- Gerelateerd aan [Principe P04: Geautomatiseerd boven handmatig](./20230919-p04-geautomatiseerd-boven-handmatig.md)
 - [Link naam](link to adr) <!-- example: Refined by [xxx](yyyymmdd-xxx.md) -->
 - … <!-- numbers of links can vary -->
