@@ -39,6 +39,7 @@ Gekozen oplossing: "Grip op data", omdat het onderliggende problematiek adressee
 - gecontroleerde kopieën van data worden expliciet gemaakt
   - hoe is in onderzoek
 - er zal ook grip verkregen moeten worden op historische data (kopieën uit het verleden)
+- bij het vastleggen van besluiten dient ook te worden vastgelegd op welke (kwaliteit van) data dit besluit gebaseerd is; dit biedt ook mogelijkheden om correcties te (gaan) ondersteunen in geval deze data achteraf anders blijkt dan bij het oorspronkelijk besluit
 
 ### Negatieve Consequences <!-- optional -->
 
