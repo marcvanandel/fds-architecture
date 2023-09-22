@@ -1,9 +1,9 @@
-# [kort titel van het opgeloste probleem en oplossing]
+# P08: Decentraal, tenzij
 
-- Status: [draft | proposed | rejected | accepted | deprecated | … | superseded by [xxx](yyyymmdd-xxx.md)] <!-- optional -->
-- Deciders: [benoem iedereen die betrokken is bij deze beslissing] <!-- optional -->
+- Status: draft
+- Deciders: FDS programma
 - Date: [YYYY-MM-DD van wanneer deze beslissing het laatst is bijgewerkt] <!-- optional. To customize the ordering without relying on Git creation dates and filenames -->
-- Tags: [comma separated lijst van tags] <!-- optional -->
+- Tags: Strategisch_Principe, Architectuur_Principe
 
 Issue: [description | ticket/issue URL] <!-- optional -->
 

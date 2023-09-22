@@ -1,9 +1,9 @@
-# [kort titel van het opgeloste probleem en oplossing]
+# Principe P05: Dataservice eerst
 
-- Status: [draft | proposed | rejected | accepted | deprecated | … | superseded by [xxx](yyyymmdd-xxx.md)] <!-- optional -->
-- Deciders: [benoem iedereen die betrokken is bij deze beslissing] <!-- optional -->
+- Status: draft
+- Deciders: FDS programma
 - Date: [YYYY-MM-DD van wanneer deze beslissing het laatst is bijgewerkt] <!-- optional. To customize the ordering without relying on Git creation dates and filenames -->
-- Tags: [comma separated lijst van tags] <!-- optional -->
+- Tags: Strategisch_Principe, Architectuur_Principe
 
 Issue: [description | ticket/issue URL] <!-- optional -->
 
@@ -19,8 +19,8 @@ Issue: [description | ticket/issue URL] <!-- optional -->
 
 ## Overwogen opties
 
-- [optie 1]
-- [optie 2]
+- API First
+- Dataservice eerst
 - [optie 3]
 - … <!-- numbers of options can vary -->
 
@@ -40,7 +40,9 @@ Gekozen oplossing: "[optie 1]", omdat [rechtvaardiging. bijvoorbeeld enige optie
 
 ## Pros en Cons van de oplossingen <!-- optional -->
 
-### [optie 1]
+### API First
+
+> // TODO Amazon's API First journey beschrijven oid
 
 [voorbeeld | beschrijving | verwijzen naar meer informatie | …] <!-- optional -->
 
@@ -49,9 +51,27 @@ Gekozen oplossing: "[optie 1]", omdat [rechtvaardiging. bijvoorbeeld enige optie
 - Slecht, omdat [argument c]
 - … <!-- numbers of pros and cons can vary -->
 
-### [optie 2]
+### Dataservice eerst
 
-[voorbeeld | beschrijving | verwijzen naar meer informatie | …] <!-- optional -->
+Data wordt uitsluitend dmv dataservices beschikbaar gesteld.
+'Dataservice eerst' is globaal beter bekend als 'API First'.
+Een dataservice is namelijk een digitale, machine leesbare interface; een Application Programming Interface dus.
+
+Voor een deel is dit een gevolg van [P04: Geautomatiseerd boven handmatig](#P04-Geautomatiseerd-boven-handmatig).
+Toch is het een nieuw principe, want het geeft aan dat eerst een (technisch) contract wordt opgesteld voordat aan verdere implementatie en automatisering wordt gewerkt.
+Het voordeel van dit principe is dan ook dat nadat de dataservice is gedefinieerd,
+kunnen aanbieder en afnemer parallel ontwikkelen zonder dat de dataservice al data levert (of zelfs bestaat).
+Het (API) contract levert voldoende zekerheid voor beide kanten om aan de slag te gaan.
+
+Een dataservice is méér dan alleen een API, een technische interface.
+Het bevat ook:
+- Metadata
+- Inwinningscontext; voorwaarden, grondslag en context voor ontstaan
+- Gebruikscontext; voorwaarden voor hergebruik, richtlijnen voor (her)gebruik en vertaling naar andere contexten
+
+Op basis van deze gegevens kunnen data-afnemers bepalen of voldoen aan de voorwaarden voor het (her)gebruik van een dataservice.
+
+Voor meer informatie, zie [basisconcept](https://www.noraonline.nl/wiki/FDS_Basis_concept).
 
 - Goed, omdat [argument a]
 - Goed, omdat [argument b]

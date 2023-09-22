@@ -1,15 +1,17 @@
-# [kort titel van het opgeloste probleem en oplossing]
+# Principe P03: Betekenisvol kunnen koppelen
 
-- Status: [draft | proposed | rejected | accepted | deprecated | … | superseded by [xxx](yyyymmdd-xxx.md)] <!-- optional -->
-- Deciders: [benoem iedereen die betrokken is bij deze beslissing] <!-- optional -->
+- Status: draft
+- Deciders: FDS programma
 - Date: [YYYY-MM-DD van wanneer deze beslissing het laatst is bijgewerkt] <!-- optional. To customize the ordering without relying on Git creation dates and filenames -->
-- Tags: [comma separated lijst van tags] <!-- optional -->
+- Tags: Strategisch_Principe, Architectuur_Principe
 
 Issue: [description | ticket/issue URL] <!-- optional -->
 
 ## Context en probleemstelling
 
-[Beschrijf de context en de probleemstelling, bijvoorbeeld in vrije tekst in twee of drie zinnen. Wellicht wil het probleem in de vorm van een vraag positioneren.]
+Voor elke registratie zijn primaire sleutels expliciet gemaakt (en uiteraard beschreven) én worden secundaire sleutels onderhouden naar gerelateerde en/of naast gelegen registraties, administaties, datasets.
+
+Uitwerking (programmakeuze): Informatiekundige Kern (IK)
 
 ## Beslissingsfactoren <!-- optional -->
 
